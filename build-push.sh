@@ -1,7 +1,7 @@
 #/bin/bash
 
-docker build --tag sjenning/kube-nginx-letsencrypt:0.8.1-1 .
+docker build --tag cangyan/kube-nginx-letsencrypt:1.0 .
 echo "docker login before continuing"
 read
-docker push sjenning/kube-nginx-letsencrypt:0.8.1-1
+docker push cangyan/kube-nginx-letsencrypt:1.0
 
